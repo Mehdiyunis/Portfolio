@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#headul{
+    display: inline-block;
+    text-align: right;
+    width: 90%;
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+#headul a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: black;
+    padding: 20px 30px;
+}
+
+#headul a:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
+
+#headul li{
+    display: inline-block;
+}
+
+#section1{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(39, 39, 39);
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+#section1 img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    z-index: 2;
+}
+
+#section1 #portfolio{
+    display: inline-block;
+    width: 400px;
+    height: 190px;
+    background-color: rgb(144, 85, 255);
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    padding: 30px;
+}
+
+#section1 #portfolio p{
+    color: white;
+}
+
+#section1 #portfolio #bir{
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+#section1 #portfolio #iki{
+    font-size: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#section1 #lorem{
+    display: inline-block;
+    width: 35%;
+    color: white;
+    margin-left: 10%;
+    position: absolute;
+    top: 360px;
+    line-height: 35px;
+    
+
+}
+
+#yourself{
+    position: relative;
+    width: 65%;
+    left: 300px;
+    padding-top: 200px;
+
+}
+
+#yourself h1{
+    color: rgb(132, 0, 255);
+    text-transform: uppercase;
+}
+
+.selfabout{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: large;
+    line-height: 35px;
+}
+
+.pad{
+    padding-bottom: 150px;
+}
+
+.number{
+    display: inline-flex;
+    width: 47%;
+    height: 300px;
+}
+
+.word{  
+    position: relative;
+    top: -47px;
+    padding: 100px 30px;
+    background-color: rgb(207, 207, 207);
+
+}
+
+.wor{  
+    position: relative;
+    top: -47px;
+    padding: 100px 30px;
+    background-color: rgb(111, 0, 255);
+
+}
+
+.num{
+    text-align: center;
+    font-size:30px;
+    padding: 100px 70px;
+}
+.number h2{
+    font-size: 60px;
+}
+
+.number h6{
+    font-size: 30px;
+}
+
+
+.fotos{
+    display: flex;
+    width: 100%;
+
+}
+
+.img{
+    position: relative;
+    width: 25%;
+    
+    margin: 4px;
+    background-color: black;
+}
+
+.fotos .img img{
+    width: 100%;
+    height: 100%;
+    margin: 4px;
+    background-color: black;
+    transition: 0.3s all;
+}
+
+.fotos img:hover{
+    opacity: 0.5;
+
+}
+
+.texttop{
+    margin-top: 150px;
+}
+
+.textleft{
+    width: 42%;
+    margin-left: 8%;
+    margin-bottom: 30px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.textright{
+    width: 42%;
+    margin-left: 50%;
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.h1{
+    margin-left: auto;
+    width: 70%;
+    height: 80px;
+    padding-top: 15px;
+    padding-right: 10px;
+    background-color: blueviolet;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+
+.h1r{
+    width: 80%;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+    
+
+}
+
